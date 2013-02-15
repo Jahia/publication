@@ -51,6 +51,11 @@
     <name>Jahia Publication</name>
     <packaging>bundle</packaging>
     <description>These are the custom module (Jahia Publication) for running on a Jahia server.</description>
+    <scm>
+        <connection>scm:git:git@github.com:Jahia/publication.git</connection>
+        <url>scm:git:git@github.com:Jahia/publication.git</url>
+        <developerConnection>scm:git:git@github.com:Jahia/publication.git</developerConnection>
+    </scm>
     <repositories>
         <repository>
             <id>jahia-public</id>
