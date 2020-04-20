@@ -62,6 +62,9 @@
     <url>scm:git:git@github.com:Jahia/publication.git</url>
     <tag>HEAD</tag>
   </scm>
+  <properties>
+    <jahia-module-signature>MCwCFFpTkCaaCkEzBWoD5BTYj21aC92tAhQtwO6P5UNtDmO7tyj3gk8Mdga+6A==</jahia-module-signature>
+  </properties>
   <repositories>
     <repository>
       <releases>
