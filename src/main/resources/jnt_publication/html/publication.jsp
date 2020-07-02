@@ -11,12 +11,14 @@
     <div class="publicationListSpace"><!--start publicationListSpace -->
         <div class="publicationPhoto">
             <a href="${file.node.url}">
-                <c:if test="${not empty preview.node.url}">
+                <c:choose>
+                <c:when test="${not empty preview and not empty preview.node.url}">
                     <img src="${preview.node.url}" alt="${preview.node.propertiesAsString['jcr:title']}">
-                </c:if>
-                <c:if test="${empty preview.node.url}">
+                </c:when>
+                <c:otherwise>
                     <img src="<c:url value='${url.currentModule}/images/no_preview.png'/>" alt="no preview"/>
-                </c:if>
+                </c:otherwise>
+                </c:choose>
             </a>
         </div>
         <div class="publicationBody"><!--start publicationBody -->
