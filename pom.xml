@@ -52,7 +52,7 @@
         <version>8.1.3.0</version>
     </parent>
     <artifactId>publication</artifactId>
-    <version>3.0.0</version>
+    <version>3.1.0-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Jahia Publication</name>
     <description>These are the custom module (Jahia Publication) for running on a Jahia server.</description>
@@ -60,7 +60,7 @@
         <connection>scm:git:git@github.com:Jahia/publication.git</connection>
         <developerConnection>scm:git:git@github.com:Jahia/publication.git</developerConnection>
         <url>scm:git:git@github.com:Jahia/publication.git</url>
-        <tag>3_0_0</tag>
+        <tag>HEAD</tag>
     </scm>
     <properties>
         <jahia-module-signature>MCwCFFpTkCaaCkEzBWoD5BTYj21aC92tAhQtwO6P5UNtDmO7tyj3gk8Mdga+6A==
